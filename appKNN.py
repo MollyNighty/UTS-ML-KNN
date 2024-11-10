@@ -6,8 +6,8 @@ from sklearn.preprocessing import LabelEncoder
 import numpy as np
 
 # Load datasets
-ds_fishKNN = pd.read_csv("dataset/fish.csv")
-ds_fruitKNN = pd.read_excel("dataset/fruit.xlsx")
+ds_fishKNN = pd.read_csv("fish.csv")
+ds_fruitKNN = pd.read_excel("fruit.xlsx")
 
 # Pilihan dataset
 st.title("Aplikasi Prediksi KNN")
